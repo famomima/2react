@@ -4,6 +4,7 @@ const Boton =({buttonText='Buscar'}) =>{
     return (
         <>
             <button >{buttonText}</button>
+            <button className="btn waves-effect waves-light btn-small #f44336 red">{buttonText}</button>
         </>
     )
 }

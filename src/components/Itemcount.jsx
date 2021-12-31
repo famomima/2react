@@ -1,4 +1,6 @@
 import {useState} from 'react'
+import CartWidget2 from './CartWidget2'
+import CartWidget3 from './Cartwidget3'
 
 const ItemCount = ({initial, stock, onAdd}) => {
     const [count, setCount] = useState(initial)
@@ -22,6 +24,10 @@ const ItemCount = ({initial, stock, onAdd}) => {
             <label>{count}</label>
             <button className="btn btn-primary" onClick={handlerRm}>-</button><br />
             <button className="btn btn-outline-primary btn-block" onClick={handlerOnAdd}>Agregar</button>
+            <button className="btn-floating btn-large waves-effect waves-light red" onClick={handlerAdd}><CartWidget2 /></button>
+            <label className="contador">{count}</label>
+            <button className="btn-floating btn-large waves-effect waves-light red" onClick={handlerRm}><CartWidget3 /></button><br />
+            <button className="btn waves-effect waves-light btn-small #f44336 red" onClick={handlerOnAdd}>Agregar</button>
         </div>           
     )
 }

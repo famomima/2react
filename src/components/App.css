@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -45,4 +46,9 @@ a {
     transform: rotate(360deg);
   }
 }
-
+.App-link {
+  color: #61dafb;
+}
+.contador {
+  font-size: large;
+}

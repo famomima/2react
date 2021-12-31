@@ -8,6 +8,7 @@ import ComponenteConteiner from './components/ItemListContainer';
 import Titulo from './components/Titulo';
 import Form from './components/Form';
 import Boton from './components/Boton';
+import ItemListContainer from './components/ItemListContainer';
 
 
 
@@ -26,12 +27,11 @@ function App() {
     <Form />
     <Boton />
     <ComponenteConteiner />
+    <ItemListContainer />
     </div>
   );
 }
-  </div>
-  );
-}
+
 export default App;
 
 
